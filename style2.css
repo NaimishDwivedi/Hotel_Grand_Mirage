@@ -1,0 +1,150 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;700&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Libre+Baskerville:ital@1&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        /* overflow: none; */
+                        font-family: 'poppins';
+                    }
+                    
+                    html,
+                    body {
+                        width: 100%;
+                        height: 100%;
+                        background: rgba(0, 0, 0, 0.7) url("pexels-mahe-haroutinian-3748176.jpg");
+                        background-blend-mode: darken;
+                        /* background-color: black; */
+                        /* background: url("hotel-1831072.jpg"); */
+                        background-size: cover;
+                        /* background-repeat: no-repeat; */
+                        /* overflow: hidden; */
+                    }
+                    
+                    .main {
+                        display: flex;
+                        flex-direction: column;
+                        /* justify-content: space-between; */
+                        gap: 10vw;
+                        /* align-items: center; */
+                        /* background: url("pexels-mahe-haroutinian-3748176.jpg"); */
+                        /* background: rgba(0, 0, 0, 0.7) url("pexels-mahe-haroutinian-3748176.jpg"); */
+                        background-blend-mode: darken;
+                        /* background-color: black; */
+                        /* background: url("hotel-1831072.jpg"); */
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    .intro {
+                        /* background-color: yellow; */
+                        width: 100%;
+                        height: 5vw;
+                    }
+                    
+                    .intro h2 {
+                        color: #b2beb5;
+                        font-size: 3vw;
+                        text-align: center;
+                        /* text-shadow: 2px 2px 4px #c2a07b; */
+                    }
+                    
+                    .intro h4 {
+                        color: #91a3b0;
+                        font-size: 1.7vw;
+                        text-align: center;
+                        font-style: italic;
+                    }
+                    
+                    .detail {
+                        /* background-color: green; */
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        /* gap: 2vw; */
+                        width: 100vw;
+                        height: 60vw;
+                        /* background-color: green; */
+                        /* border: 2px solid red; */
+                    }
+                    
+                    .about,
+                    .vision,
+                    .founder {
+                        margin: 1vw;
+                        width: 32vw;
+                        border: 2px solid #c2a07b;
+                        /* background-color: yellow; */
+                        padding: 2vw;
+                        border-radius: 5%;
+                        transition: 0.5s ease-in-out;
+                    }
+                    
+                    .detail h3 {
+                        color: #c2a07b;
+                        font-size: 1.8vw;
+                        text-decoration: underline;
+                        font-style: italic;
+                    }
+                    
+                    .detail p:hover {
+                        /* color: #51FF0D; */
+                    }
+                    
+                    .detail p {
+                        /* background-color: #000; */
+                        font-size: 1.3vw;
+                        text-align: justify;
+                        color: #FFFAE4;
+                    }
+                    
+                    .hover-effect:hover {
+                        box-shadow: inset 0 0 20px 0px #c2a07b;
+                        ;
+                        transform: scale(1.01);
+                    }
+                    
+                    @media screen and (max-device-width: 1080px) {
+                        .detail {
+                            flex-wrap: wrap;
+                        }
+                        .about,
+                        .vision,
+                        .founder {
+                            margin: 3vw;
+                            width: 100vw;
+                            /* height: 100%; */
+                            border: 2px solid #c2a07b;
+                            height: 50vw;
+                            /* background-color: yellow; */
+                            padding: 2vw;
+                            border-radius: 3vw;
+                            transition: 0.5s ease-in-out;
+                        }
+                        .detail h3 {
+                            color: #91a3b0;
+                            font-size: 3vw;
+                            text-decoration: underline;
+                            font-style: italic;
+                        }
+                        .detail p {
+                            /* background-color: #000; */
+                            font-size: 2.92vw;
+                            text-align: justify;
+                            color: #FFFAE4;
+                        }
+                        .intro h2 {
+                            color: #b2beb5;
+                            font-size: 6vw;
+                            text-align: center;
+                        }
+                        .intro h4 {
+                            color: #91a3b0;
+                            font-size: 4vw;
+                            text-align: center;
+                            font-style: italic;
+                        }
+                    }

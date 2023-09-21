@@ -1,0 +1,747 @@
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;700&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Libre+Baskerville:ital@1&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Libre+Baskerville:ital@1&family=Libre+Bodoni:wght@500&family=Metamorphous&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                            @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bodoni+Moda:opsz@6..96&family=Caveat&family=Dancing+Script:wght@400;700&family=Fuggles&family=Handjet:wght@300&family=Libre+Baskerville:ital@1&family=Metamorphous&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;400;500;700&display=swap');
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                                overflow: none;
+                                /* font-family: 'poppins'; */
+                            }
+                            
+                            html,
+                            body {
+                                width: 100%;
+                                height: 100%;
+                                /* overflow: hidden; */
+                                background-color: #000000;
+                            }
+                            
+                            .nav-bar {
+                                width: 100vw;
+                                height: 3vw;
+                                display: flex;
+                                justify-content: space-between;
+                                background-color: #000000;
+                                border-bottom: 2px solid #656d76;
+                            }
+                            
+                            .para-logo {
+                                /* background-color: yellow; */
+                                padding: 3px;
+                                width: 15%;
+                                font-family: Fuggles;
+                                color: #ff0dff;
+                                display: flex;
+                                align-items: center;
+                                /* justify-content: center; */
+                            }
+                            
+                            .menu-para {
+                                font-weight: 900;
+                                font-size: 35px;
+                            }
+                            
+                            .nav-menu {
+                                display: flex;
+                                align-items: center;
+                                width: 35%;
+                                /* background-color: green; */
+                                display: flex;
+                                justify-content: space-evenly;
+                            }
+                            
+                            .nav-menu a {
+                                color: white;
+                                text-decoration: none;
+                                font-size: 1.6vw;
+                            }
+                            
+                            .nav-menu a:hover {
+                                /* text-shadow: 2px 2px 4px #7ee787; */
+                                color: #91a3b0;
+                            }
+                            
+                            .main .hotel-name {
+                                position: absolute;
+                                top: 8%;
+                                /* left: 20%; */
+                                position: absolute;
+                                width: 100vw;
+                                height: 10vh;
+                                z-index: 9;
+                                /* background-color: greenyellow; */
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-around;
+                                align-items: center;
+                            }
+                            /* .hotel-name h2 {
+    font-family: roboto;
+    position: relative;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.01vw red;
+}
+
+.hotel-name h2::before {
+    content: attr(data-texts);
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: white;
+    -webkit-text-stroke: 0.01vw #383d52;
+    text-shadow: 1px 1px 10px #FF6EC7, 0 0 10px #FF6EC7, 0 0 10px #FF6EC7; */
+                            /* border-right: 2px solid #01fe87; */
+                            /* 
+overflow: hidden;
+animation: animate 10s linear infinite;
+
+}
+@keyframes animate {
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+    
+    70%,
+    90% {
+        width: 100%;
+    }
+} */
+                            
+                            .hotel-name h2 {
+                                /* position: absolute; */
+                                /* transform: translate(-50%, -50%); */
+                                font-size: 4vw;
+                                /* -webkit-text-stroke: 1px #fff; */
+                                /* color: transparent; */
+                                /* background-image: linear-gradient(#ffa28b, #ffa28b); */
+                                /* background-image: linear-gradient(antiquewhite, antiquewhite);
+                    background-repeat: no-repeat;
+                    -webkit-background-clip: text;
+                    background-position: -600px 0;
+                    animation: backcolor 2s linear infinite normal; */
+                                font-style: bold;
+                                display: flex;
+                                justify-items: center;
+                                align-items: center;
+                                color: #b2beb5;
+                                /* color: #ff0dff; */
+                                /* text-shadow: 2px 2px 5px steelblue; */
+                            }
+                            
+                            .hotel-name h3 {
+                                /* color: #51ff0d; */
+                                font-size: 3vw;
+                                font-weight: 100;
+                                font-style: italic;
+                                color: transparent;
+                                /* background-image: linear-gradient(#ffa28b, #ffa28b); */
+                                background-image: linear-gradient(#91a3b0, #91a3b0);
+                                background-repeat: no-repeat;
+                                -webkit-background-clip: text;
+                                background-position: 0px 50px;
+                                animation: backcolor 0s ease-in-out alternate-reverse;
+                                animation-iteration-count: infinite;
+                                animation-delay: 0ms;
+                                animation-duration: 2s;
+                            }
+                            
+                            @keyframes backcolor {
+                                100% {
+                                    background-position: 0 0;
+                                }
+                            }
+                            
+                            .main {
+                                width: 100vw;
+                                height: 100vh;
+                                /* background-color: black; */
+                                overflow: hidden;
+                                position: absolute;
+                            }
+                            
+                            .video1 {
+                                /* width: 100vw;
+    height: 100vh; */
+                                width: 200vw;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                z-index: 1;
+                                /* opacity: ; */
+                                transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+                            }
+                            
+                            .video2 {
+                                /* width: 100%;
+    height: 100%; */
+                                width: 200vw;
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                /* opacity: 0; */
+                                /* z-index: 0; */
+                            }
+                            
+                            .container {
+                                position: absolute;
+                                top: 70%;
+                                left: 50%;
+                                transform: translate(-50%, 0%);
+                                position: absolute;
+                                width: 15vw;
+                                height: 10vh;
+                                /* background-color: white; */
+                                z-index: 9;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            
+                            .dragme {
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                width: 2vw;
+                                height: 2vw;
+                                border-radius: 50%;
+                                /* background-color: green; */
+                                border: 5px dotted green;
+                            }
+                            
+                            .cir {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                width: 2vw;
+                                height: 2vw;
+                                border-radius: 50%;
+                                /* background-color: red; */
+                                border: 5px dotted red;
+                            }
+                            
+                            .container p {
+                                padding: 5px;
+                                color: white;
+                                border: 1px orange solid;
+                                border-radius: 5px;
+                                transition: all linear 2s;
+                            }
+                            
+                            .above-footer {
+                                width: 100vw;
+                                height: 50vw;
+                                color: white;
+                                background-color: green;
+                                display: flex;
+                                /* align-items: end; */
+                                bottom: 0;
+                                left: 50%;
+                                /* margin: 0; */
+                                transform: translate(-50%, 0%);
+                                position: absolute;
+                                z-index: 9;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                /* gap: 1vw; */
+                                display: none;
+                            }
+                            
+                            .above-footer img {}
+                            
+                            .footer {
+                                width: 100vw;
+                                height: 2vw;
+                                color: white;
+                                /* background-color: green; */
+                                display: flex;
+                                /* align-items: end; */
+                                position: absolute;
+                                bottom: 0;
+                                left: 50%;
+                                /* margin: 0; */
+                                transform: translate(-50%, 0%);
+                                position: absolute;
+                                z-index: 9;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                /* gap: 1vw; */
+                            }
+                            
+                            .footer-details {
+                                width: 40vw;
+                                height: 100%;
+                                /* background-color: red; */
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 2.5vw;
+                            }
+                            
+                            .footer-details p {
+                                font-size: 1.5vw;
+                            }
+                            
+                            @media screen and (max-width: 425px) {
+                                body {
+                                    height: 90vw;
+                                }
+                                .nav-bar {
+                                    width: 100;
+                                    height: 10vw;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    background-color: #000000;
+                                    border-bottom: 2px solid #656d76;
+                                }
+                                .para-logo {
+                                    /* background-color: yellow; */
+                                    padding: 3px;
+                                    width: 15%;
+                                    font-family: Fuggles;
+                                    color: #ff0dff;
+                                    display: flex;
+                                    align-items: center;
+                                    /* justify-content: center; */
+                                }
+                                .main {
+                                    width: 100vw;
+                                    height: 100%;
+                                    /* background-color: black; */
+                                    overflow: hidden;
+                                    position: absolute;
+                                }
+                                .menu-para {
+                                    font-size: 4vw;
+                                }
+                                .menu-para i {
+                                    /* display: none; */
+                                }
+                                .video1 {
+                                    /* width: 200vw; */
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    z-index: 1;
+                                    /* height: max-content; */
+                                    /* opacity: ; */
+                                    /* transform: scale(1.5); */
+                                    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+                                }
+                                .video2 {
+                                    /* width: 200vw; */
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    /* opacity: 0; */
+                                    /* z-index: 0; */
+                                }
+                                .nav-menu {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 80%;
+                                    /* background-color: green; */
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    ;
+                                }
+                                .nav-menu a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-size: 3.4vw;
+                                }
+                                .hotel-name h2 {
+                                    /* position: absolute; */
+                                    /* transform: translate(-50%, -50%); */
+                                    font-size: 9.5vw;
+                                    /* -webkit-text-stroke: 1px #fff; */
+                                    color: #b2beb5;
+                                    /* background-image: linear-gradient(#ffa28b, #ffa28b); */
+                                    font-style: bold;
+                                    display: flex;
+                                    justify-items: center;
+                                    align-items: center;
+                                    /* color: #ff0dff; */
+                                    /* text-shadow: 2px 2px 5px steelblue; */
+                                }
+                                .main .hotel-name {
+                                    position: absolute;
+                                    top: 50vw;
+                                    /* left: 20%; */
+                                    position: absolute;
+                                    width: 100vw;
+                                    height: 10vh;
+                                    z-index: 9;
+                                    /* background-color: greenyellow; */
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                .hotel-name h3 {
+                                    /* color: #91a3b0; */
+                                    font-size: 4.5vw;
+                                    /* text-shadow: 2px 2px 5px yellow; */
+                                }
+                                .above-footer {
+                                    width: 100vw;
+                                    height: 70vw;
+                                    color: white;
+                                    /* background-color: green; */
+                                    display: flex;
+                                    /* align-items: end; */
+                                    bottom: 35vw;
+                                    /* left: 50%; */
+                                    /* margin: 0; */
+                                    /* transform: translate(-50%, 0%); */
+                                    position: absolute;
+                                    z-index: 9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    /* gap: 1vw; */
+                                }
+                                .above-footer img {
+                                    width: 100vw;
+                                    height: 73vw;
+                                }
+                                .dragme {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    border-radius: 50%;
+                                    /* background-color: green; */
+                                    border: 5px dotted green;
+                                }
+                                .cir {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 12vw;
+                                    height: 12vw;
+                                    border-radius: 50%;
+                                    /* background-color: red; */
+                                    border: 5px dotted red;
+                                }
+                                .container {
+                                    position: absolute;
+                                    top: 80%;
+                                    transform: translate(-50%, 0%);
+                                    width: 70vw;
+                                    height: 8vh;
+                                    /* background-color: white; */
+                                    z-index: 9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .container p {
+                                    padding: 5px;
+                                    color: white;
+                                    border: 1px #656d76 solid;
+                                    border-radius: 5px;
+                                    transition: all linear 2s;
+                                    font-size: 3.5vw;
+                                }
+                                .footer {
+                                    width: 100vw;
+                                    height: 12vw;
+                                    color: white;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    /* align-items: end; */
+                                    position: absolute;
+                                    bottom: 0vw;
+                                    /* left: 50%; */
+                                    /* margin: 0; */
+                                    /* transform: translate(-50%, 0%); */
+                                    position: absolute;
+                                    z-index: 9;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 5vw;
+                                    border-top: 1px solid grey;
+                                }
+                                .footer-details {
+                                    /* background-color: yellow; */
+                                    width: 95vw;
+                                    height: 70%;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 3.5vw;
+                                    /* padding: 5px; */
+                                }
+                                .footer-details p {
+                                    font-size: 3vw;
+                                }
+                            }
+                            
+                            @media screen and (min-width: 768px) {
+                                .nav-bar {
+                                    width: 100vw;
+                                    height: 8vw;
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    /* background-color: #000000; */
+                                    border-bottom: 2px solid #656d76;
+                                    /* gap: 5vw; */
+                                }
+                                .para-logo {
+                                    /* background-color: yellow; */
+                                    padding: 3px;
+                                    width: 15%;
+                                    font-family: Fuggles;
+                                    color: #ff0dff;
+                                    display: flex;
+                                    align-items: center;
+                                    /* justify-content: center; */
+                                }
+                                .nav-menu {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 99vw;
+                                    /* background-color: green; */
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                }
+                                .nav-menu a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-size: 3.1vw;
+                                }
+                                .dragme {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 8vw;
+                                    height: 8vw;
+                                    border-radius: 50%;
+                                    /* background-color: green; */
+                                    border: 5px dotted green;
+                                }
+                                .cir {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 8vw;
+                                    height: 8vw;
+                                    border-radius: 50%;
+                                    /* background-color: red; */
+                                    border: 5px dotted red;
+                                }
+                                html,
+                                body {
+                                    width: 100vw;
+                                    height: 100%;
+                                    /* overflow: hidden; */
+                                    background-color: #000000;
+                                }
+                                .main {
+                                    width: 100vw;
+                                    height: 70vw;
+                                    /* background-color: black; */
+                                    overflow: hidden;
+                                    position: absolute;
+                                }
+                                .container {
+                                    position: absolute;
+                                    bottom: 1vw;
+                                    transform: translate(-50%, 0%);
+                                    width: 50vw;
+                                    height: 25vw;
+                                    /* background-color: white; */
+                                    z-index: 9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .container p {
+                                    padding: 3px;
+                                    color: white;
+                                    border: 1px #656d76 solid;
+                                    border-radius: 5px;
+                                    transition: all linear 2s;
+                                    font-size: 2.5vw;
+                                }
+                                .footer {
+                                    width: 100vw;
+                                    height: 6vw;
+                                    color: white;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    /* align-items: end; */
+                                    position: absolute;
+                                    top: 80vw;
+                                    /* left: 50%; */
+                                    /* margin: 0; */
+                                    /* transform: translate(-50%, 0%); */
+                                    position: absolute;
+                                    z-index: 9;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 5vw;
+                                    border-top: 1px solid grey;
+                                }
+                                .footer-details {
+                                    /* background-color: yellow; */
+                                    width: 100vw;
+                                    height: 100%;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 3vw;
+                                }
+                                .footer-details p {
+                                    font-size: 2.5vw;
+                                    color: grey;
+                                }
+                            }
+                            
+                            @media screen and (min-width: 1024px) {
+                                .above-footer {
+                                    display: none;
+                                }
+                                .para-logo {
+                                    /* background-color: yellow; */
+                                    padding: 3px;
+                                    width: 15%;
+                                    font-family: Fuggles;
+                                    color: #ff0dff;
+                                    display: flex;
+                                    align-items: center;
+                                    /* justify-content: center; */
+                                }
+                                .nav-menu a {
+                                    color: white;
+                                    text-decoration: none;
+                                    font-size: 1.8vw;
+                                }
+                                .dragme {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 4vw;
+                                    height: 4vw;
+                                    border-radius: 50%;
+                                    /* background-color: green; */
+                                    border: 5px dotted green;
+                                }
+                                .cir {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 4vw;
+                                    height: 4vw;
+                                    border-radius: 50%;
+                                    /* background-color: red; */
+                                    border: 5px dotted red;
+                                }
+                                .main {
+                                    width: 100vw;
+                                    height: 70vw;
+                                    /* background-color: black; */
+                                    overflow: hidden;
+                                    position: absolute;
+                                }
+                                body {
+                                    height: 30%;
+                                    background-color: wheat;
+                                }
+                                .main .hotel-name {
+                                    position: absolute;
+                                    top: 5vw;
+                                    /* left: 20%; */
+                                    position: absolute;
+                                    width: 100vw;
+                                    height: 10vh;
+                                    z-index: 9;
+                                    /* background-color: greenyellow; */
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                }
+                                .container {
+                                    position: absolute;
+                                    top: 35vw;
+                                    transform: translate(-50%, 0%);
+                                    width: 25vw;
+                                    height: 10vh;
+                                    /* background-color: white; */
+                                    z-index: 9;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+                                .container p {
+                                    padding: 4px;
+                                    color: #b2beb5;
+                                    border: 1px #656d76 solid;
+                                    border-radius: 5px;
+                                    transition: all linear 2s;
+                                    font-size: 1.5vw;
+                                }
+                                .footer {
+                                    width: 100vw;
+                                    height: 4vw;
+                                    color: white;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    /* align-items: end; */
+                                    position: absolute;
+                                    top: 46vw;
+                                    /* left: 50%; */
+                                    /* margin: 0; */
+                                    /* transform: translate(-50%, 0%); */
+                                    z-index: 9;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 5vw;
+                                }
+                                .footer-details {
+                                    /* background-color: yellow; */
+                                    width: 100vw;
+                                    height: 100%;
+                                    /* background-color: red; */
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 5vw;
+                                    border-top: 1px solid grey;
+                                }
+                                .footer-details p {
+                                    font-size: 1.5vw;
+                                    color: grey;
+                                }
+                                .nav-bar {
+                                    width: 100vw;
+                                    height: 4vw;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    background-color: #000000;
+                                    border-bottom: 2px solid #656d76;
+                                    /* gap: 15vw; */
+                                }
+                                .nav-menu {
+                                    display: flex;
+                                    align-items: center;
+                                    width: 50%;
+                                    /* background-color: green; */
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    margin: 1vw;
+                                    padding: 1vw;
+                                }
+                            }
