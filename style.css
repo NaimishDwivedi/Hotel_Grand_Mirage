@@ -289,7 +289,7 @@ animation: animate 10s linear infinite;
                                 font-size: 1.5vw;
                             }
                             
-                            @media screen and (max-width: 425px) {
+                            @media (max-width:600px){
                                 body {
                                     height: 90vw;
                                 }
